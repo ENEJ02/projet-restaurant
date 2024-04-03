@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Septime</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <p>city guide-paris</p>
+            <h1>Septime</h1>
+            <ul>
+                <li><a href="#salle">Salle</a> - </li>
+                <li><a href="#service">Service</a> - </li>
+                <li><a href="#dressage">Dressage</a> - </li>
+                <li><a href="#goût">Goût</a></li>
+            </ul>
+        </header>
+        <main>
+            <article>
+                <img src="img/assiette.png" alt="">
+                <div class="content">
+                    <h2>Exemple de plat</h2>
+
+                    <p>Merlu de ligne<br>carottes nouvelles <br> epice douce</p>
+
+            </article>
+
+            <article id="salle" class="revers-block">
+                <img src="img/resto_01_grande.jpg" alt="">
+                <div class="content">
+                    <h2>La salle</h2>
+
+                    <p>
+                        Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est très agréable,
+                        elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue
+                        sur un petit jardin parisien. À l'entrée un joli sol en carreaux de céramique, quelques plumes
+                        de paon et de bien jolies bouteilles anciennes...
+                        Le nombre des tables est limité, ce qui rend le restaurant très appréciable, mais aussi très
+                        prisé !
+                    </p>
+                    <button>
+                        La note 
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa fa-star empty"></i>
+                    
+                    </button>
+            </article>
+
+            <article id="service">
+                <img src="img/resto_02.jpg" alt="">
+                <div class="content">
+                    <h2>Le service</h2>
+
+                    <p>Service toujours impeccable. L'ensemble de la table est servi rapidement, la corbeille de pain
+                        régulièrèment pleine, les serveurs expliquent le menu avec beaucoup d'attention et ont
+                        d'excellents conseils pour marier mets et vins. On reconnaît l'ensemble de l'équipe à ses
+                        tabliers bleus.</p>
+                        <button>
+                            La note 
+                            <i class="fa fa-star filled"></i>
+                            <i class="fa fa-star filled"></i>
+                            <i class="fa fa-star filled"></i>
+                            <i class="fa fa-star filled"></i>
+                            <i class="fa fa-star empty"></i>
+                        
+                        </button>
+            </article>
+
+            <article id="dressage" class="revers-block">
+                <img src="img/resto_03.jpg" alt="">
+                <div class="content">
+                    <h2>Le dressage</h2>
+
+                    <p>
+                        Le dressage c'est un peu la marque de fabrique du chef, avec la cuisine bien sûr. Ses plats sont
+                        de vrais petits tableaux de maître. Une belle recherche dans les formes et les couleurs très
+                        agréables visuellement.
+                    </p>
+                    <button>
+                        La note 
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star empty"></i>
+                    
+                    </button>
+            </article>
+
+            <article id="goût">
+                <img src="img/resto_04.jpg" alt="">
+                <div class="content">
+                    <h2>LE GOÛT</h2>
+
+                    <p>
+                        Last but not least, le goût. C'est le point le plus important, et tellement bien ajusté ici. Les
+                        papilles roltent et rivoltent au rythme des sareurs si justes, des cuissons si parfaitement
+                        maitrisées.
+                        Chaque plat, chaque association, rien n'est laissé au hasard, de l'élément principal à la toute
+                        petite feuille d'herbe délicatement posée sur le dessus du plat. Emerveillement des sens et
+                        frénésie de créativité sont au rendez vous.
+                    </p>
+                    <button>
+                        La note 
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa fa-star filled"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    
+                    </button>
+            </article>
+
+        </main>
+        <footer>
+            <div class="image_text">
+                <img src="img/plan.png" alt="">
+                <p>CURY GUIDE</p>
+            </div>
+            <h1>Septime</h1>
+            <p>30, rue de Charonne - 75010 Paris</p>
+            <p>01 43 67 38 29</p> 
+            <p>Du lundi au vendredi - midi & soir</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script> 
+    <script>
+        const lenis = new Lenis({
+            duration:1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))
+        })
+        
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+    </script>
+</body>
+
+</html>
